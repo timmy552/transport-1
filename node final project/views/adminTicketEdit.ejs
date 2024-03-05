@@ -1,0 +1,40 @@
+<%-include('partials/head') %>
+<link rel="stylesheet" href="css/editticket.css">
+<body>
+    <form method="Post" action="/ticketedit">
+        <div>
+        <label for="fullname"> Fullname</label>
+        <input type="text" name="fullname" id="fullname">
+    </div>
+    <div>
+        <label for="destination">destination</label>
+        <input type="text" name="destination" id="destination">
+    </div>
+    <div>
+            <label for="origin">origin:</label>
+            <input type="text" name="origin" id="origin">  
+        </div>  
+        <div> 
+            <label for="phonenumber"> phonenumber</label>
+            <input type="text" name="phonenumber" id="phonenumber">
+        </div>
+        <div>
+            <label for="depart">depart</label>
+            <input type="date" name="depart" id="depart">
+        </div>
+        <div>
+            <label for="sit">sit</label>
+            <input type="text" name="sit" id="sit"> 
+        </div>
+        <div>
+            <label for="ticketnumber">ticketnumber</label>
+          
+            <input type="text" name="ticketnumber" id="ticketnumber"> 
+        </div>
+            <button type="submit"> submit</button>
+        </form>
+    
+   
+    </body>
+
+</html>

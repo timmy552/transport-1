@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin-top: 0;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ticket{
+    background-color: white;
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 390px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.figure img{
+    width: 100%;
+}
+.figure{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 50px;
+    height: 170px;
+    overflow: hidden;
+}
+form{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.dash{
+    width:40%;
+    border: white 2px solid;
+    height: 100vh;
+    background-color: white;
+
+}
+.dash h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.container{
+ 
+    width: 60%;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* margin-left: 40%; */
+        /* display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 29px ;
+    grid-column-gap: -60px; */
+}

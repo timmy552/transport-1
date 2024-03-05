@@ -1,0 +1,32 @@
+<%-include('partials/head') %>
+<link rel="stylesheet" href="css/login.css">
+<body>
+    <div class="container">
+    <form method="Post" action="/login">
+        <h1>Sign into your GIGM account using</h1>
+        <%= messages %>
+        <div class="parent">
+        <div class="username">
+        <label for="username"> Username:</label>
+          <br>
+        <input placeholder="example@gmail.com" type="text" name="username" id="username">
+        </div>
+        <div class="password">
+        <label for="password">Password:</label>
+          <br>
+        <input placeholder="Enter your password" type="text" name="password" id="password">
+        </div>
+        </div>
+        <a id="forgetpassword" href="/forgetpassword">forget password?</a>
+        <button type="submit">sign in</button>
+        <p id="signup">don't have an account yet? <a style="color: blue;" href="/userRegistration">sign Up</a></p>
+    </form>
+    <div class="context">
+       <h3> Why sign up on GIGM</h3>
+ <p> <i class="fa-brands fa-github fa-xl"></i> Get Additional 5% off</p>
+<p> <i class="fa-brands fa-github fa-xl"></i>Manage your booking</p>
+<p><i class="fa-brands fa-github fa-xl"></i>Get exclusive deals and offers</p>
+    </div>
+    </div>
+</body>
+</html>

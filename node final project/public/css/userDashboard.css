@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+nav{
+    display: flex;
+    position: sticky;
+   top:0px;
+   background-color: rgb(246,252,254);
+   z-index: 1;
+   width: 100%;
+ 
+  
+   /* border: 2px solid black; */
+}
+.profile img{
+    width: 100%;
+    border-radius: 150px;
+}
+/* .logo{
+    border: 2px solid black;
+} */
+.menu{
+    width: 50%;
+    display: flex;
+    margin-left: 780px;
+  
+}
+.profile{
+    width: 60%;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.userDetails2{
+    display: none;
+}
+.userDetails{
+    display: block;
+  width: 20%;
+  border: transparent;
+  border-radius: 25px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  right: 250px;
+}
+.navOptions{
+    display: flex;
+    margin-right: 50px;
+}
+.navOptions p{
+    margin-left: 50px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    padding-top: 25px;
+    cursor: pointer;
+}
+#logoutbtn{
+    margin-top: 20px;
+        width: 25%;
+        background-color:  rgb(115,134,147);
+        color: white;
+        border-radius: 7px;
+        height: 40px;
+        border: transparent ;
+        cursor: pointer;
+        margin-left: 80px;
+}
+.userDetails h3{
+   margin-top: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+}
+.context{
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    width: 60%;
+    color: white;
+    font-size: 1.8em;
+}
+.context h1{
+    /* width: 80%; */
+    margin-bottom: 30px;
+}
+.context p{
+    width: 80%;
+}
+
+.form{
+    border: 2px solid rgba(255, 255, 255, 0.233);
+    width: 35%;
+    color: white;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.105);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.form label{
+    font-size: 1.2em ;
+    /* font-weight: 700; */
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-left: 20px;
+
+}
+.form input{
+    border: 2px solid rgb(176,230,248);
+    background: rgb(246,252,254);
+    height: 30px;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.heading h3 {
+  
+  margin-top: 20px;
+  cursor: pointer;
+   
+}
+
+.heading {
+    background-color: rgb(115,134,147);
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.booking{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.booking div {
+    font-size: 1em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.booking select{
+    border: 2px dotted rgb(176,230,248);
+    background: rgb(246,252,254);
+    
+}
+#price{
+    text-align: center;
+    margin-left: 40%;
+    background-color:  rgb(115,134,147);
+    font-size: 1em;
+    padding: 5px;
+    cursor: pointer;
+    width: 20%;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#ticketnumber{
+    text-align: center;
+    margin-left: 37%;
+    background-color:  rgb(115,134,147);
+    font-size: 1em;
+    padding: 5px;
+    cursor: pointer;
+    width: 30%;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#total{
+    text-align: center;
+    margin-left: 37%;
+    background-color:  rgb(115,134,147);
+    font-size: 1em;
+    padding: 5px;
+    cursor: pointer;
+    width: 30%;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.submitbtn{
+        margin-top: 20px;
+        width: 25%;
+        background-color:  rgb(115,134,147);
+        color: white;
+        border-radius: 7px;
+        height: 40px;
+        border: transparent ;
+        margin-left: 150px;
+        cursor: pointer;
+}
+.origin{
+    display: none;
+}
+.origin1{
+    display: block;
+}
+.destination{
+    display: none;
+}
+.destination1{
+    display: block;
+}
+.depart{
+    display: none;
+}
+.depart1{
+    display: block;
+}
+.sit{
+    display: none;
+}
+.sit1{
+    display: block;
+}
+
+/* section1 */
+.section1{
+    background-color: rgb(244,245,247);
+    height: 300px;
+    display: flex;
+    z-index: 0;
+    /* justify-content: space-between; */
+}
+.tripprice{
+    margin-top: 70px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100px;
+    /* border: 2px solid black; */
+    width: 40%;
+
+}
+.locations{
+    /* border: 2px solid black; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.IB{
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQth0-gMLoXX9LXkiwNmPf3Su-Ht37JdiMJEGUWccyI5UysBo5Ci3rcpt7_Wj4JVbijnheKBdkR6gBuN2Hq8atALTxk5Vbm);
+    background-size: cover;
+    height: 220px;
+    width: 25%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.book{
+    padding-top: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    position: relative;
+    margin-top: 100px;
+    height: 130px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+}
+.book button{
+    background-color: rgb(86,204,242);
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 70%;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+.section2{
+    display: flex;
+    z-index: 0;
+}
+.imageApp{
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+}
+.imageApp img{
+    width: 100%;
+    height: 400px;
+}
+.downloadApp{
+         width: 50%;
+     background-color: rgb(86,204,242);
+     height: 400px;
+    
+}
+#context{
+    
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    padding-top: 100px;
+}
+#context h1{
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    
+}
+#context p{
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
+#appline{
+    position: absolute;
+    right: 100px;
+    top: 1100px;
+}
+.section3{
+    display: flex;
+    height: 500px;
+    background-color: rgb(244,245,247);
+    width: 100%;
+}
+.cardText{
+    width: 50%;
+    height: 400px;
+    text-align: left;
+    position: relative;
+   
+    padding-top: 20px;
+}
+.cardText h1{
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    font-size: 3em;
+
+}
+.cardText p{
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 1.1em;
+
+}
+
+.imageCard{
+    width: 50%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.imageCard img {
+    width: 100%;
+    height: 300px;
+}
+
+.section4{
+    background-color: rgb(212,237,246);
+    height: 500px;
+   
+}
+.earn{
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(86,204,242);
+    margin-left: 100px;
+    position: absolute;
+    top: 1760px;
+
+}
+.earn h1{
+    font-size: 2.5em;
+    padding-top:40px ;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+
+}
+
+.earn h4{
+    font-size: 1.2em;
+    padding-top:40px ;
+    color: grey;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.earn button{
+   width: 40%;
+   background-color: red;
+   border-radius: 10px;
+   height: 40px;
+   font-size: 1.1em;
+   margin-left: 100px;
+   margin-top: 30px;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+.imageEarn{
+    width: 40%;
+    height: 500px;
+    margin-left: 750px
+}
+
+.imageEarn img{
+    width: 100%;
+    height: 500px;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(86, 203, 242, 0.756) ;
+}
+.col{
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col a {
+    color: black;
+    display: block;
+    line-height: 60px;
+    cursor: none;
+}

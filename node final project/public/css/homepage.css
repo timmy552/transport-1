@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    display: flex;
+    background: linear-gradient(180deg,white, white,white, rgba(86, 203, 242, 0.573));
+}
+.section1{
+    width: 40%;
+ background-image: url(https://images.unsplash.com/photo-1693835843843-82f691094f59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+ background-size: cover;
+ background-color: rgba(0, 0, 0, 0.342);
+  height: 570px;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+
+}
+
+
+.context{
+ margin-top: 40px;
+ margin-left: 60px;
+
+}
+.logo{
+    cursor: pointer;
+}
+.text{
+    margin-top: 50px;
+    width: 50%;
+    color: white;
+    width: 80%;
+   
+}
+.text h1{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text p {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section2{
+    width: 60%
+}
+.section2 h1{
+    font-weight: 800;
+    width: 70%;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top:90px;
+    margin-left: 10%;
+    font-size: 1.5em;
+
+}
+.option{
+    display: flex;
+    margin-top: 100px;
+}
+.signin{
+    /* border: 2px dotted black; */
+    width: 20%;
+    height: 200px;
+   background-image: url(https://gigm.com/static/media/Group%205328.660f37f6.png);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.signin h3{
+    padding-top: 80px;
+    font-size: 1em;
+}
+.signin p{
+    padding-top: 20px;
+    font-size: 0.9em;
+}
+
+.guest{
+    border: 2px dotted rgb(86,204,242);
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.guest h3{
+    padding-top: 80px;
+    font-size: 1em;
+}
+.guest p{
+    padding-top: 20px;
+    font-size: 0.9em;
+}

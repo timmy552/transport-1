@@ -1,0 +1,44 @@
+<%-include('partials/head') %>
+<link rel="stylesheet" href="css/userRegistration.css">
+<body>
+    <form method="Post" action="/register">
+        <h1>create your account</h1>
+        <%= messages %>
+        <div class="parent">
+        <div>
+        <label for="fullname">fullname:</label>
+        <br>
+        <input type="text" name="fullname" id="fullname">
+        </div>
+        <div>
+        <label for="username"> Username:</label>
+        <br>
+        <input type="text" name="username" id="username">
+        </div>
+        <div>
+        <label for="password">Password:</label>
+        <br>
+        <input type="text" name="password" id="password">
+        </div>
+        <div>
+        <label for="state">state:</label>
+        <br>
+        <input type="text" name="state" id="state">
+       </div>
+       <div>
+        <label for="passport">Passport:</label>
+        <br>
+        <input type="text" name="passport" id="passport">
+       </div>
+         <div>
+        <label for="phone">phone:</label>
+        <br>
+        <input type="phone" name="phone" id="phone">
+       </div>
+    </div>
+  <div id="checkbox"> <input type="checkbox"> <p id="terms">by signing up i agree to GIGM's <a href="">terms and conditions </a>and <a href="">privacy policy</a></p></div>
+        <button type="submit">Let's Go</button>
+        <p id="signin">Already have an account <a href="/login">Sign In</a></p>
+    </form>
+</body>
+</html>

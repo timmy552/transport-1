@@ -1,0 +1,39 @@
+<%-include('partials/head') %>
+<link rel="stylesheet" href="css/admindashboard.css">
+<body>
+  <!-- <div class="searchBar">
+    <label for="search"></label>
+    <input type="search" id="search" >
+  </div> -->
+  <div class="dash">
+    <div class="figure">
+      <img src="<%= foundAdmin.passport %>" alt="">
+    </div>
+    <h1><%= foundAdmin.fullname %></h1>
+    <h1><%= foundAdmin.role %></h1>
+    <h1><%= foundAdmin.phone %></h1>
+    
+  <form method="Post" action="/admintickets">
+    <h1>view Ticket</h1>
+    <label for="ticketnumber">Enter your Ticket Number</label>
+    <br>
+    <input type="text" name="ticketnumber" id="ticket">
+    <button type="submit">Check</button>
+</form>
+</div>
+  <div class="container">
+    <% ticket.forEach(el => { %>
+        <div class="ticket">
+         <h2>Name:   <%= el.fullname %></h2>
+         <h2>Travel to:   <%= el.origin %></h2>
+         <h2>Travel from:   <%= el.destination %></h2>
+         <h2>Date:    <%= el.depart %></h2>
+         <h2>Ticket Number:   <%= el.ticketnumber %></h2>
+         <h2>Total:   <%= el.total %></h2>
+            <a href="delete/<%=el._id %>">delete</a>
+        </div>
+        <% }) %>
+      </div>
+</body>
+<script src="js/adminDashboard.js"></script>
+</html>

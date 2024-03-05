@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+}
+.ticket{
+    background-color: white;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 70px;
+    border-radius: 10px;
+    height: 470px;
+}
+
+.ticket h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.ticket h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    margin-left: 30px;
+
+}
+/* .ticket span{
+   
+} */

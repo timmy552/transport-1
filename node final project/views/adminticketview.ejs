@@ -1,0 +1,18 @@
+<%-include('partials/head') %>
+<link rel="stylesheet" href="css/ticketview.css">
+<body>
+    <div class="ticket">
+    <h1>  <%= findticket.fullname %></h1>
+    <h3><span>Travel From:</span>   <%= findticket.origin %></h3>
+    <h3><span>Travel To:</span>   <%= findticket.destination %></h3>
+    <h3><span>date:</span>   <%= findticket.depart %></h3>
+    <h3><span>sit: </span>  <%= findticket.sit %></h3>
+    <h3><span>Ticket Number:</span>   <%= findticket.ticketnumber %></h3>
+    <h3><span>Price:</span>   <%= findticket.price %></h3>
+    <h3><span>Phone Number:</span>   <%= findticket.phonenumber %></h3>
+    <h3><span>Total:</span>   <%= findticket.total %></h3>
+    <a href="find/<%= findticket._id %>">edit</a>    <a href="deleteagain/<%=findticket._id %>">delete</a>
+    </div>
+   
+</body>
+</html>
